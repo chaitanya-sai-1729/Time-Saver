@@ -159,4 +159,10 @@ p.design{
   .home-heading{
     text-align: center;
   }
+  .carousel{
+    margin-top: 10px;
+  }
+  .top-padding{
+    margin-top: 10px;
+  }
 }
