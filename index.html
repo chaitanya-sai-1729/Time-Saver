@@ -20,6 +20,13 @@
 
   <!-- JQuery CDN  -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!--ajax text animation-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js" integrity="sha512-zKaK6G2LZC5YZTX0vKmD7xOwd1zrEEMal4zlTf5Ved/A1RrnW+qt8pWDfo7oz+xeChECS/P9dv6EDwwPwelFfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!--aos animation-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
 <body>
@@ -66,7 +73,7 @@
 
       <div class="row">
         <div class="col-lg-6">
-          <h1 class="home-heading">Pre-Book your Table and Order Your items before you reach the Restaurant.</h1>
+          <h1 id="home-heading"></h1>
           <button class="btn btn-dark btn-lg download-button" type="button"><i class="fa-brands fa-apple"></i> Download</button>
           <button class="btn btn-outline-light btn-lg download-button" type="button"><i class="fa-brands fa-google-play"></i> Download</button>
         </div>
@@ -112,7 +119,7 @@
 
 
     <div class="row">
-      <div class="top-padding col-lg-3">
+      <div class="top-padding col-lg-3" data-aos="zoom-in">
         <img class="img-sizing" src="images/kfc.jpg" alt="kfc-image">
         <h3>KFC Restaurant</h2>
           <ul>
@@ -126,7 +133,7 @@
 
       </div>
 
-      <div class="top-padding col-lg-3">
+      <div class="top-padding col-lg-3" data-aos="zoom-in">
         <img class="img-sizing" src="images/train.png" alt="train-image">
         <h3>Train Restaurant</h2>
           <ul>
@@ -137,7 +144,7 @@
 
           <button class="btn btn-dark btn-md" type="button"><a target="_blank" class="maps-link" href="https://www.google.com/maps/search/train+restaurant+in+kadapa+maps/@14.4610402,78.8148456,15.22z?hl=en">Google-Maps</a></button>
       </div>
-      <div class="top-padding col-lg-3">
+      <div class="top-padding col-lg-3" data-aos="zoom-in">
         <img class="img-sizing" src="images/district.jpg" alt="district-image">
         <h3>District Drive Restaurant</h2>
           <ul>
@@ -148,7 +155,7 @@
 
           <button class="btn btn-dark btn-md" type="button"><a target="_blank" class="maps-link" href="https://www.google.com/maps/search/district+restaurants+in+kadapa+maps/@14.4767177,78.7832919,13z/data=!3m1!4b1?hl=en">Google-Maps</a></button>
       </div>
-      <div class="top-padding col-lg-3">
+      <div class="top-padding col-lg-3" data-aos="zoom-in">
         <img class="img-sizing" src="images/chillies.jpg" alt="district-image">
         <h3>Chillies Restaurant</h2>
           <ul>
@@ -164,12 +171,12 @@
   </section>
 
   <!-- pre-Book -->
-  <section id="pre-book">
+  <section id="pre-book" data-aos="fade-right">
     <h1 class="pre-book-heading" >Book Your Table here</h1>
     <form class="" action="mailto:chaitanyasai.m.5@gmail.com" method="post" enctype="text/plain">
       <div class="forms text-padding">
         <label>Enter Name : </label><br>
-        <input class="blank" type="text" name="Name" value="" required>
+        <input class="blank" type="text" name="Name" value="" placeholder="ex : Chaitanya" required>
       </div>
       <div class="forms text-padding">
         <label>Enter Mobile Number: </label><br>
@@ -177,7 +184,7 @@
       </div>
       <div class="forms text-padding">
         <label>Number of members : </label><br>
-        <input class="blank" type="number" name="Number of members" value="" required>
+        <input class="blank" type="number" name="Number of members" value="" placeholder="ex: 3" required>
       </div>
       <div class="forms text-padding">
         <label>Choose the Date : </label><br>
@@ -219,7 +226,7 @@
   </section>
 
   <!-- Order -->
-  <section id="order">
+  <section id="order" data-aos="fade-left">
     <h1 class="order-heading">Order</h1>
     <form class="" action="mailto:chaitanyasai.m.5@gmail.com" method="post" enctype="text/plain">
       <div class="forms text-padding">
@@ -260,7 +267,7 @@
   </section>
 
   <!-- contact -->
-  <section id="contact">
+  <section id="contact" data-aos="zoom-in-up">
 <div class="">
       <a class="" target="_blank" href="https://www.facebook.com/chaitanyasai.m.5/"><i class="social-icon fa-brands fa-facebook-f fa-2xl"></i></a>
       <a class="" target="_blank" href="https://twitter.com/Chaitan04103504?t=8KROHz86YLPiKUtP8V_9Dg&s=09"><i class="social-icon fa-brands fa-twitter fa-2xl"></i></a>
