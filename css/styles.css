@@ -1,3 +1,4 @@
+
 .forms {
   padding: 6px 5px;
 }
@@ -77,6 +78,13 @@ a {
 
 .maps-link {
   color: #d9dee6;
+}
+
+/* Restaurant pics*/
+
+.d-block
+{
+  border-radius: 20px;
 }
 
 /* hotels */

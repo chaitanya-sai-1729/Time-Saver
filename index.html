@@ -18,6 +18,8 @@
   <!-- Font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
 
+  <!-- JQuery CDN  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -28,7 +30,7 @@
 
 
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">Time-Saver</a>
+        <a class="navbar-brand" href="#home">Time-Saver</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,7 +44,7 @@
             Hotels
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#hotels">KFC</a></li>
+            <li><a class="dropdown-item js" href="#hotels">KFC</a></li>
             <li><a class="dropdown-item" href="#hotels">Train</a></li>
             <li><a class="dropdown-item" href="#hotels">District Drive</a></li>
             <li><a class="dropdown-item" href="#hotels">Chillies</a></li>
@@ -69,7 +71,7 @@
           <button class="btn btn-outline-light btn-lg download-button" type="button"><i class="fa-brands fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6">
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-interval="100">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-interval="30">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/restaurant4.jpg" class="d-block w-100" alt="...">
@@ -114,12 +116,12 @@
         <img class="img-sizing" src="images/kfc.jpg" alt="kfc-image">
         <h3>KFC Restaurant</h2>
           <ul>
-            <li><a href="images/kfc-menu.webp">click here</a> to find the menu and order the recipies you need.</li>
+            <li><a href="images/kfc-menu.webp" target="_blank">click here</a> to find the menu and order the recipies you need.</li>
             <li>Raing : 3.9⭐</li>
             <li>Contact : 080 4275 4444</li>
           </ul>
 
-          <button class="btn btn-dark btn-md" type="button"><a class="maps-link"
+          <button class="btn btn-dark btn-md" type="button"><a class="maps-link" target="_blank"
               href="https://www.google.com/maps/place/KFC/@14.465522,78.8305013,17z/data=!3m1!4b1!4m5!3m4!1s0x3bb373ff9a8b5ceb:0xaf72fdf3e5eb4cc8!8m2!3d14.465522!4d78.83269?hl=en">Google-Maps</a></button>
 
       </div>
@@ -128,34 +130,34 @@
         <img class="img-sizing" src="images/train.png" alt="train-image">
         <h3>Train Restaurant</h2>
           <ul>
-            <li><a href="images/train-menu.jpeg">click here</a> to find the menu and order the recipies you need.</li>
+            <li><a href="images/train-menu.jpeg" target="_blank">click here</a> to find the menu and order the recipies you need.</li>
             <li>Rating : 3.7⭐</li>
             <li>Contact : not available</li>
           </ul>
 
-          <button class="btn btn-dark btn-md" type="button"><a class="maps-link" href="https://www.google.com/maps/search/train+restaurant+in+kadapa+maps/@14.4610402,78.8148456,15.22z?hl=en">Google-Maps</a></button>
+          <button class="btn btn-dark btn-md" type="button"><a target="_blank" class="maps-link" href="https://www.google.com/maps/search/train+restaurant+in+kadapa+maps/@14.4610402,78.8148456,15.22z?hl=en">Google-Maps</a></button>
       </div>
       <div class="top-padding col-lg-3">
         <img class="img-sizing" src="images/district.jpg" alt="district-image">
         <h3>District Drive Restaurant</h2>
           <ul>
-            <li><a href="images/district-menu.png">click here</a> to find the menu and order the recipies you need.</li>
+            <li><a href="images/district-menu.png" target="_blank">click here</a> to find the menu and order the recipies you need.</li>
             <li>Rating : 3.1⭐</li>
             <li>Contact : 088860 77704</li>
           </ul>
 
-          <button class="btn btn-dark btn-md" type="button"><a class="maps-link" href="https://www.google.com/maps/search/district+restaurants+in+kadapa+maps/@14.4767177,78.7832919,13z/data=!3m1!4b1?hl=en">Google-Maps</a></button>
+          <button class="btn btn-dark btn-md" type="button"><a target="_blank" class="maps-link" href="https://www.google.com/maps/search/district+restaurants+in+kadapa+maps/@14.4767177,78.7832919,13z/data=!3m1!4b1?hl=en">Google-Maps</a></button>
       </div>
       <div class="top-padding col-lg-3">
         <img class="img-sizing" src="images/chillies.jpg" alt="district-image">
         <h3>Chillies Restaurant</h2>
           <ul>
-            <li><a href="images/chillies-menu.webp">click here</a> to find the menu and order the recipies you need.</li>
+            <li><a href="images/chillies-menu.webp" target="_blank">click here</a> to find the menu and order the recipies you need.</li>
             <li>Rating : 3.9⭐</li>
             <li>Contact : 096973 33336</li>
           </ul>
 
-          <button class="btn btn-dark btn-md" type="button"><a class="maps-link"
+          <button class="btn btn-dark btn-md" type="button"><a class="maps-link" target="_blank"
               href="https://www.google.com/maps?q=chillies+restaurant+kadapa&source=lmns&bih=596&biw=1381&rlz=1C1CHBF_enIN924IN924&hl=en&sa=X&ved=2ahUKEwiphtfV2Pr3AhV7_jgGHYQKDCMQ_AUoAXoECAEQAQ">Google-Maps</a></button>
       </div>
     </div>
@@ -167,24 +169,39 @@
     <form class="" action="mailto:chaitanyasai.m.5@gmail.com" method="post" enctype="text/plain">
       <div class="forms text-padding">
         <label>Enter Name : </label><br>
-        <input class="blank" type="text" name="Name" value="">
+        <input class="blank" type="text" name="Name" value="" required>
+      </div>
+      <div class="forms text-padding">
+        <label>Enter Mobile Number: </label><br>
+        <input class="blank" type="tel" name="Phn No:" value="" placeholder="ex : 1234567896" pattern="[0-9]{10}" required>
       </div>
       <div class="forms text-padding">
         <label>Number of members : </label><br>
-        <input class="blank" type="number" name="Number of members" value="">
+        <input class="blank" type="number" name="Number of members" value="" required>
       </div>
       <div class="forms text-padding">
         <label>Choose the Date : </label><br>
-        <input class="blank" type="date" name="Date" value="">
+        <input class="blank" type="date" name="Date" value="" required>
       </div>
       <div class="forms text-padding">
         <label>Enter the time : </label><br>
-        <input class="blank" type="time" name="Time" value="">
+        <input class="blank" type="time" name="Time" value="" required>
+      </div>
+      <div class="forms text-padding">
+        <label>Choose the Restaurant :</label>
+
+        <select name="Type" required>
+          <option value="" name="type=">--Please choose restaurant--</option>
+          <option value="KFC Restaurant">KFC Restaurant</option>
+          <option value="Train Restaurant">Train Restaurant</option>
+          <option value="District Drive Restaurant">District Drive Restaurant</option>
+          <option value="Chillies Restaurant">Chillies Restaurant</option>
+        </select>
       </div>
       <div class="forms text-padding">
         <label>Choose the type :</label>
 
-        <select name="Type">
+        <select name="Type" required>
           <option value="">--Please choose an option--</option>
           <option value="AC">AC</option>
           <option value="Non-Ac">Non-Ac</option>
@@ -223,6 +240,7 @@
       </div>
 
 
+
       <div class="forms text-padding">
         <label>Choose the type :</label>
 
@@ -244,10 +262,10 @@
   <!-- contact -->
   <section id="contact">
 <div class="">
-      <a class="" href="https://www.facebook.com/chaitanyasai.m.5/"><i class="social-icon fa-brands fa-facebook-f fa-2xl"></i></a>
-      <a class="" href="https://twitter.com/Chaitan04103504?t=8KROHz86YLPiKUtP8V_9Dg&s=09"><i class="social-icon fa-brands fa-twitter fa-2xl"></i></a>
-      <a class="" href="https://www.instagram.com/"><i class="social-icon fa-brands fa-instagram fa-2xl"></i></a>
-      <a class="" href="https://mail.google.com/mail/u/0/#inbox"><i class="social-icon fa-solid fa-envelope fa-2xl"></i></a>
+      <a class="" target="_blank" href="https://www.facebook.com/chaitanyasai.m.5/"><i class="social-icon fa-brands fa-facebook-f fa-2xl"></i></a>
+      <a class="" target="_blank" href="https://twitter.com/Chaitan04103504?t=8KROHz86YLPiKUtP8V_9Dg&s=09"><i class="social-icon fa-brands fa-twitter fa-2xl"></i></a>
+      <a class="" target="_blank" href="https://www.instagram.com/chaitanyasai.m.3/"><i class="social-icon fa-brands fa-instagram fa-2xl"></i></a>
+      <a class="" target="_blank" href="mailto: chaitanyasai.m.5@gmail.com"><i class="social-icon fa-solid fa-envelope fa-2xl"></i></a>
 
       <p class="copyright">© Copyright Time-Saver</p>
 </div>
@@ -260,6 +278,8 @@
 </div>
   </section>
 
+<script src="index.js" charset="utf-8"></script>
 </body>
+
 
 </html>
